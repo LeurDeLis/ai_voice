@@ -1,10 +1,3 @@
-# import pyttsx3
-#
-# engine = pyttsx3.init()
-# engine.say("你好，潘晶晶！")
-# engine.runAndWait()
-
-
 import sounddevice as sd
 from vosk import Model, KaldiRecognizer
 import queue
